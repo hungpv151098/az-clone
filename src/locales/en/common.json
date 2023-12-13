@@ -1,0 +1,45 @@
+{
+  "Hello world": "Hello",
+  "auth": {
+    "account_existed": "Account existed",
+    "account_not_exist": "Account not existed",
+    "wrong_password": "Password is wrong",
+    "need_auth": "Need X Token for this API",
+    "token_wrong": "Wrong X Token"
+  },
+  "validate": {
+    "required": "The :attribute field is required.",
+    "header": "This API cannot call from outside.",
+    "is_email": "Please enter a valid email address.",
+    "password_confirm": "The password confirmation does not match.",
+    "min_length": "The password must be at least 6 characters.",
+    "post_content_max_length": "The content has been limited to 300 characters",
+    "is_number": "The :attribute field must be a numeric.",
+    "is_integer": "The :attribute field must be a integer.",
+    "image_required": "The image field is required.",
+    "user_required": "The user_id field is required.",
+    "user_numeric": "The user_id field must be a numeric.",
+    "in_value_status": "The status field can only have values of 1 or 2",
+    "in_value_reason":"The reason field need have values of 1 in 11 reason",
+    "in_folder_field":"The folder field can only have values of post or report",
+    "in_value_reason_user":"The reason field need have values of 1 in 6 reason"
+  },
+  "field": {
+    "content":"content",
+    "user_id": "user_id",
+    "image": "image",
+    "ip": "ip",
+    "expire_time": "expire_time",
+    "status": "status",
+    "reason":"reason",
+    "likeableId": "likeableId",
+    "likeableType": "likeableType"
+  },
+  "liveness": {
+    "need_verify_photo_first": "You need to verify the photo first!",
+    "token_invalid": "Token not exits or invalid",
+    "token_expire": "Token is expire",
+    "token_ip_invalid": "Your ip is invalid with token",
+    "session_invalid": "Your session is invalid"
+  }
+}
